@@ -264,7 +264,7 @@ NOTE: `https://git.io/shellspec` is redirected to [install.sh](https://github.co
 The installation using the web installer is mainly intended for development use.
 For CI, it is recommended to use a specific version (tag) in git or archives to avoid unexpected failures.
 
-Following an exmaple how this can be achieved in a GitHub Workflow:
+Following an example how this can be achieved in a GitHub Action Workflow:
 ```
 ...
     - name: Install shellspec
